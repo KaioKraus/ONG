@@ -1,4 +1,54 @@
+/*Formatação*/
 *{
     padding: 0;
     margin: 0;
+}
+
+body{
+    background: url(./assets/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Cabeçalho*/
+header{
+    width: 190px;
+    height: 190px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 180px;
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.box1{
+    width: 170px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 180px;
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+/*Conteudo principal*/
+.section1{
+    width: 55vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 80%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
 }
