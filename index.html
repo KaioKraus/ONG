@@ -24,15 +24,96 @@
         <!--seção 1-->
         <section class="section1">
 
-            <form action="">
+            <div class="flex">
 
-            </form>
+                <!--Formulario-->
+                <form id="formAdocao">
+
+                    <!--Nome-->
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" placeholder="Digite seu nome">
+                    <br>
+
+                    <!--Email-->
+                    <label for="Email">Email:</label> <br>
+                    <input type="email" id="email" placeholder="Digite seu email">
+                    <br>
+
+                    <!--Telefone--->
+                    <label for="telefone">telefone:</label> <br>
+                    <input type="text" id="telefone" placeholder="telefone">
+                    <br>
+
+                    <!--CPF-->
+                    <label for="CPF">CPF:</label> <br>
+                    <input type="text" id="CPF" placeholder="Digite seu CPF">
+                    <br>
+
+                    <!--Idade-->
+                    <label for="Idade">Data de nascimento:</label> <br>
+                    <input type="text" id="nasc" placeholder="data de nascimento">
+                    <br>
+
+                    <!--Moradia-->
+                    <label for="Moradia">Moradia:</label><br>
+                    <Select id="moradia" name="moradia">
+                        <option value="">Selecione</option>
+                        <option value="casa">Casa</option>
+                        <option value="apartamento">Apartamento</option>
+                    </Select>
+                    <br>
+
+                    <!--deixar essa box centralizada-->
+                    <div class="meio">
+
+                        <!--Quintal-->
+                        <label for="quintal">Possui quintal?</label><br>
+                        <input type="radio" name="quintal" value="sim" class="rd">Sim
+                        <input type="radio" name="quintal" value="nao" class="rd">Não
+                        <br>
+
+                        <!--Pet-->
+                        <label for="pet">Já teve pet?</label><br>
+                        <input type="radio" name="pet" value="sim" class="rd">Sim
+                        <input type="radio" name="pet" value="nao" class="rd">Não
+                        <br>
+                    </div>
+
+                    <!--Horas-->
+                    <label for="horas">Quantas horas o pet ficará sozinho por dia?</label> <br>
+                    <input type="text" name="horas" id="horas" placeholder="Quanats horas o pet ficara sozinho?">
+                    <br>
+
+                    <!--Motico da adoção0-->
+                    <label for="motivo">Qual o motivo da adoção?</label> <br>
+                    <textarea name="motivo" id="motivo" placeholder="Motivo pela adoção"></textarea>
+                    <br>
+
+                    <!--deixar essa box centralizada-->
+                    <div class="meio">
+
+                        <!--Termos-->
+                        <label for="termos">Termos de reponsabilidade:</label><br>
+                        <input type="checkbox" name="termos" id="termos" class="termos">
+                        <br>
+                    </div>
+
+                    <!--deixar essa box centralizada-->
+                    <div class="meio">
+
+                        <!--Enviar-->
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 
     <!--Roda pé-->
     <footer></footer>
 
+
+    <script src="/script.js"></script>
 </body>
 
 </html>
